@@ -31,3 +31,17 @@ body {
     text-wrap: balance;
   }
 }
+
+/* stylize scroll bar */
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(var(--background-end-rgb));
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(var(--background-start-rgb));
+}
+
